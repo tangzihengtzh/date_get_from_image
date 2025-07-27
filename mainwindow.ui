@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1410</width>
+    <height>948</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="MyGraphicsView" name="ImgView">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>21</y>
+      <width>991</width>
+      <height>671</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openImg">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>710</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OpenImage</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ImagePath">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>800</y>
+      <width>991</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>770</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>image path:(input by yorself)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inputxmin">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>input Xmin</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="xmin">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>60</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inputymin">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>20</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>input Ymin</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ymin">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>60</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="xmax">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>150</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inputymax">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>110</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>input Ymax</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ymax">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>150</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="inputxmax">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>110</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>input Xmax</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="currentState">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>110</y>
+      <width>104</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>90</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>current state</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="clickres">
+    <property name="geometry">
+     <rect>
+      <x>1063</x>
+      <y>230</y>
+      <width>321</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="getdata">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>370</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>get point</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="userpoints">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>430</y>
+      <width>321</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="outputtxt">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>370</y>
+      <width>80</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>output txt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>410</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>user points</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>790</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>made by TZH in 2025.8</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1410</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuget_datas">
+    <property name="title">
+     <string>get datas</string>
+    </property>
+   </widget>
+   <addaction name="menuget_datas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">mygraphicsview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
